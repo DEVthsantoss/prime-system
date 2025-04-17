@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --cor1:#001427;
+    --cor2:#FF9607;
+    --cor3:#DDDDD7;
+    --cor4:#555555;
+
+    --fonte-p: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte-p);
+    background-color:var(--cor1);
+}
+
+header{
+    background-color: black;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    display: block;
+    padding-left: 100px;
+    padding-bottom: 10px;}
+
+nav{
+    padding-left: 500px;
+    background-color: black;
+    font-family: var(--fonte-p);
+    padding-top: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.home{
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+nav a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+main > h1{
+    color: white;
+    font-family: var(--fonte-p);
+    font-weight: regular;
+    font-size: 28px;
+    text-align: center;
+}
+
+.sub{
+    font-weight: bolder;
+}
+
+main h2{
+    color: var(--cor2);
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 40px;
+}
+
+h3{
+    color: var(--cor2);
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+p.descrição{
+    color:var(--cor3);
+    text-align: center;
+    font-weight: regular;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.box1{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color:white;
+    width: 350px;
+    height: 100px;
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.box1:hover{
+    transform: scale(1.05); 
+    transition: all 0.3s ease;
+}
+
+.box1 > h1{
+    color: var(--cor2);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.box1 > p{
+    color: var(--cor4);
+    font-size: 16px;
+    font-weight: regular;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box2{
+    margin-top: 40px;
+    margin-left: 50px;
+    display: inline-block;
+    background-color:white;
+    width: 350px;
+    height: 100px;
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.box3{
+    margin-top: 40px;
+    margin-left: 50px;
+    display: inline-block;
+    background-color:white;
+    width: 350px;
+    height: 100px;
+    padding: 20px; 
+    border-radius: 10px; 
+}

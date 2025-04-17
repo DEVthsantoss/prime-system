@@ -124,25 +124,3 @@ p.descrição{
     text-align: center;
     padding-top: 20px;
 }
-
-.box2{
-    margin-top: 40px;
-    margin-left: 50px;
-    display: inline-block;
-    background-color:white;
-    width: 350px;
-    height: 100px;
-    padding: 20px; 
-    border-radius: 10px; 
-}
-
-.box3{
-    margin-top: 40px;
-    margin-left: 50px;
-    display: inline-block;
-    background-color:white;
-    width: 350px;
-    height: 100px;
-    padding: 20px; 
-    border-radius: 10px; 
-}
